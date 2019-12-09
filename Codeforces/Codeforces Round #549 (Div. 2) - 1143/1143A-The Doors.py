@@ -1,0 +1,5 @@
+n = int(input())
+a = list(map(int, input().split()))
+x = n - a[::-1].index(0)
+y = n - a[::-1].index(1)
+print(min(x, y))

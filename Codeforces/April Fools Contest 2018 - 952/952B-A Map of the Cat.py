@@ -1,0 +1,1 @@
+print(9);print('ngorrummaply'[input()[-2:]in'lenuseay'::2])
