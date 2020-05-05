@@ -23,11 +23,11 @@ using namespace std;
 #define		ll 				long long
 #define 	ld 				long double
 bool 		coll(pll p1,pll p2,pll p3)		{if((p3.ss-p2.ss)*(p2.ff-p1.ff)==(p2.ss-p1.ss)*(p3.ff-p2.ff))return true;else return false;}
-void		print(auto x)					{cout<<x<<endl;}
-void 		pv(vector<auto> v)				{for(ll i=0;i<(ll)v.size();i++)cout<<v[i]<<" ";cout<<endl;}
-void 		pvsl(vector<auto> v)			{for(ll i=0;i<(ll)v.size();i++)cout<<v[i]<<" ";}
-void 		in(vector<auto> &v, ll n)		{v.resize(n);for(ll i=0;i<n;i++)cin>>v[i];}
-void 		sortv(vector<auto> &v)			{sort(v.begin(),v.end());}
+// void		print(auto x)					{cout<<x<<endl;}
+// void 		pv(vector<auto> v)				{for(ll i=0;i<(ll)v.size();i++)cout<<v[i]<<" ";cout<<endl;}
+// void 		pvsl(vector<auto> v)			{for(ll i=0;i<(ll)v.size();i++)cout<<v[i]<<" ";}
+// void 		in(vector<auto> &v, ll n)		{v.resize(n);for(ll i=0;i<n;i++)cin>>v[i];}
+// void 		sortv(vector<auto> &v)			{sort(v.begin(),v.end());}
 void 		fast()							{ios_base::sync_with_stdio(false);cin.tie(0);cout.tie(0);}
 ll maxi(ll a, ll b){ 
 	if (a > b)

@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "ostream": "cpp",
+        "vector": "cpp",
+        "iosfwd": "cpp",
+        "ios": "cpp",
+        "utility": "cpp",
+        "iostream": "cpp",
+        "random": "cpp",
+        "string": "cpp",
+        "algorithm": "cpp",
+        "deque": "cpp",
+        "set": "cpp"
+    },
+    "python.pythonPath": "/usr/local/opt/python/bin/python3.7"
+}
